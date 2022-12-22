@@ -35,7 +35,7 @@ pub fn run_gputrace(
             profile_start_time, duration_ms)
     };
 
-    let kineto_config = format!(r#"\nACTIVITIES_LOG_FILE={}\n{}"#, log_file, trigger_config);
+    let kineto_config = format!(r#"ACTIVITIES_LOG_FILE={}\n{}"#, log_file, trigger_config);
 
     println!("Kineto config = \n{}", kineto_config);
 
