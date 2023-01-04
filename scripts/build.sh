@@ -7,7 +7,7 @@
 # Please run this script from the root level of the project.
 #  ./scripts/build.sh <optional cmake args>
 
-set -eux -o pipefail
+#set -eux -o pipefail
 
 # Check dependencies
 cmake --version || echo "Please install cmake for your platform using dnf/apt-get etc."
